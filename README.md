@@ -19,6 +19,7 @@ https://github.com/user-attachments/assets/7f46b736-edec-4828-b809-4be780a3e5b1
 
 ## What's New:
 
+- 12/19/2024 [Falcon3-1.58bit family (including chat models) now supported](https://huggingface.co/collections/tiiuae/falcon3-67605ae03578be86e4e87026) ![NEW](https://img.shields.io/badge/NEW-red) 
 - 11/08/2024 [BitNet a4.8: 4-bit Activations for 1-bit LLMs](https://arxiv.org/abs/2411.04965) ![NEW](https://img.shields.io/badge/NEW-red) 
 - 10/21/2024 [1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs](https://arxiv.org/abs/2410.16144)
 - 10/17/2024 bitnet.cpp 1.0 released.
@@ -76,6 +77,20 @@ This project is based on the [llama.cpp](https://github.com/ggerganov/llama.cpp)
     </tr>
     <tr>
         <td rowspan="2"><a href="https://huggingface.co/HF1BitLLM/Llama3-8B-1.58-100B-tokens">Llama3-8B-1.58-100B-tokens</a></td>
+        <td rowspan="2">8.0B</td>
+        <td>x86</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+        <td>&#10004;</td>
+    </tr>
+    <tr>
+        <td>ARM</td>
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="https://huggingface.co/collections/tiiuae/falcon3-67605ae03578be86e4e87026">Falcon3 Family</a></td>
         <td rowspan="2">8.0B</td>
         <td>x86</td>
         <td>&#10004;</td>
